@@ -1,1 +1,151 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
+    <!-- Bulma Version 0.9.0-->
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <script
+      src="https://kit.fontawesome.com/2828f7885a.js"
+      integrity="sha384-WAsFbnLEQcpCk8lM1UTWesAf5rGTCvb2Y+8LvyjAAcxK1c3s5c0L+SYOgxvc6PWG"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- Begin Scroll Up Button -->
+    <form action="#home">
+      <button id="toTop" title="Go to top">
+        <i class="fas fa-angle-up"></i>
+      </button>
+    </form>
+    <!-- End Scroll Up Button -->
+
+    <!-- Begin Header -->
+    <div class="header-wrapper" id="home">
+      <!-- Begin Hero -->
+      <section class="hero is-large">
+        <!-- Begin Mobile Nav -->
+        <nav class="navbar is-transparent is-hidden-desktop">
+        </nav>
+        <!-- End Mobile Nav -->
+        <!-- Begin Hero Content-->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <h1 class="subtitle profession">Team</h1>
+            <h2 class="title">Vibing</h2>
+
+          </div>
+        </div>
+        <!-- End Hero Content-->
+        <!-- Begin Hero Menu -->
+        <div class="hero-foot ">
+          <div class="hero-foot--wrapper">
+            <div class="columns">
+              <div class="column is-12 hero-menu-desktop has-text-centered">
+                <ul>
+                  <li class="is-active">
+                    <a href="#home">Home</a>
+                  </li>
+                  <li>
+                    <a href="./templates/profile.html">Profile</a>
+                  </li>
+                  <li>
+                    <a href="">Tools</a>
+                  </li>
+                  <li>
+                    <a href="">Project</a>
+                  </li>
+                  <li>
+                    <a href="">Job</a>
+                  </li>
+                  <li>
+                    <a href="">Reflection</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Menu -->
+      </section>
+      <!-- End Hero -->
+    </div>
+    <!-- End Header -->
+
+    <!-- Begin Main Content -->
+    <div class="main-content">
+      <!-- Begin About Me Section -->
+      <div class="section-light about-me" id="about-me">
+        <div class="container">
+          <div class="column is-12 about-me">
+            <h1 class="title has-text-centered section-title">About Us</h1>
+          </div>
+          <div class="columns is-multiline">
+            <div
+              class="column is-6 has-vertically-aligned-content"
+              data-aos="fade-right"
+            >
+              <p class="is-larger">
+                <strong>
+                Assignment 3 : Our IT Project
+                </strong>
+              </p>
+              <br />
+              <p>
+                This team project was built from the ground up together and is the product of assignment 3 of Introduction of Information Technology (COSC1078).
+                In this assignment we are required to develop a plan for an IT project of our own, which will show an
+                understanding of both our group’s skills and talents, as well as an understanding of the IT industry and current IT trends.
+              </p>
+              <br />
+              <div class="is-divider"></div>
+              <div class="columns about-links">
+                <div class="column">
+                  <p class="heading">
+                    <strong>Connect with us</strong>
+                  </p>
+                <a href="https://github.com/s3767707/Assignment-3">https://github.com/s3767707/Assignment-3</a>
+                <p>
+                    <a class="button is-small is-info is-outlined" href="">
+                        Next
+                    </a>
+                </p>
+                </div>
+              </div>
+            </div>
+            <div class="column is-5 right-image " data-aos="fade-left">
+              <img
+                class="is-rounded"
+                src="https://picsum.photos/800/600/?random"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- Begin Footer -->
+    <section class="copyright">
+      <div class="container">
+        <p>© <span id="year"></span> | Designed and Developed based on <a href="https://github.com/BulmaTemplates/bulma-templates">Bulma CSS template</a>. | All rights reserved.</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/showcase.js"></script>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: "ease-out",
+        duration: 800,
+      });
+    </script>
+  </body>
+</html>
