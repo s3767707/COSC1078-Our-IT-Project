@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Free Bulma template</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/report.css">
+</head>
+
+<body>
+  <!-- START NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../index.html">
+          <img src="../images/logo.jpg" alt="Logo">
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+        </span>
+      </div>
+      <div class="brand-name">
+        <a href="../index.html" class="logo">Vibing</a>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item is-active" href="../index.html">
+            Home
+          </a>
+          <a class="navbar-item" href="profile.html">
+            Profile
+          </a>
+          <a class="navbar-item" href="tools.html">
+            Tools
+          </a>
+          <a class="navbar-item" href="project.html">
+            Project
+          </a>
+          <a class="navbar-item" href="job.html">
+            Job
+          </a>
+          <a class="navbar-item" href="reflection.html">
+            Reflection
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+  <section class="hero is-info is-medium is-bold">
+    <div class="hero-body-testing">
+    </div>
+  </section>
+
+<div class="tab-pane is-active" id="pane-2">
+  <div class="content">
+    <h1>Testing</h1>
+    <br>
+  <p>Testing is the process consisting of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects. The process consists of all life cycle activities, both static and dynamic, concerned with planning, preparation and evaluation of software products and related work products to determine that they satisfy specified requirements, to demonstrate that they are fit for purpose and to detect defects. The following are the types of test we planned to implement in order:</p><br>
+<h3>Unit Testing</h3><br>
+<p>Unit testing searches for defects in, and verifies the functioning of, software items (for example modules, programs, objects, classes, etc.) that are separately testable. The objectives of unit testing is to</p>
+<ul>
+  <li>Reduce risk (for example by testing high-risk components more extensively).
+</li>
+  <li>Verify whether or not functional and non-functional behaviours of the com-ponent are as they should be (as designed and specified).</li>
+  <li>Build confidence in the quality of the component: this may include measuring structural coverage of the tests, giving confidence that the component has been tested as thoroughly as was planned.</li>
+  <li>Find defects in the component.</li>
+  <li>Prevent defects from escaping to later testing.</li>
+</ul><br>
+<p>Test objects for unit testing include:</p>
+<ul>
+  <li>code and data structures(Java 8)</li>
+  <li>Classes(Java 8)</li>
+  <li>database models(MySQL)</li>
+  <li>HTML(React Native)</li>
+</ul><br>
+<p>Tools for unit testing:</p>
+<ul>
+  <li>Junit 5 for backend testing</li>
+  <li>Selenium for front end testing</li>
+  <li>DbUnit for database testing</li>
+</ul><br>
+<p>Typically, unit testing occurs with access to the code being tested and with the support of the development environment, such as a unit test framework or debugging tool. In practice it usually involves the developer who wrote the code. The developer may  change  between  writing  code  and  testing  it.  Sometimes,  depending  on  the  applicable  level  of  risk,  component  testing  is  carried  out  by  a  different  developer,  introducing  independence.  Defects  are  typically  fixed  as  soon  as  they  are  found,  without  formally  recording  them  in  a  defect  management  tool.  Of  course,  if  such  defects are recorded, this can provide useful information for root cause analysis. Our approach is to apply test-driven development (TDD). This approach is highly iterative and is based on cycles of developing automated tests, then building and integrating small pieces of code, and executing the component tests until they pass, and is typically done in Agile development. The idea is that the first thing the developer does is to write some automated tests for the component. Of course if these are run now, they will fail because no code is there! Then just enough code is written until those tests pass.  This  may  involve  fixing  defects  now  found  by  the  tests  and  refactoring  the  code.  (This  approach  also  helps  to  build  only  what  is  needed  rather  than  a  lot  of  functionality that is not really wanted.)
+</p><br>
+<h3>Integration testing</h3><br>
+<p>Integration  testing  tests  interfaces  between  components  and  interactions  of  dif-ferent  parts  of  a  system  such  as  an  operating  system,  file  system  and  hardware  or  interfaces between systems. Integration tests are typically based on the software and system  design  (both  high-level  and  low-level),  the  system  architecture  (especially  the relationships between components or objects) and the workflows or use cases. The objectives of unit testing is to</p>
+<ul>
+  <li>Reduce risk, for example by testing high-risk integrations first.</li>
+  <li>Verify whether or not functional and non-functional behaviours of the interfaces are as they should be, as designed and specified.</li>
+  <li>Build confidence in the quality of the interfaces.</li>
+  <li>Find defects in the interfaces themselves or in the components or systems being tested together.</li>
+  <li>Prevent defects from escaping to later testing.</li>
+</ul><br>
+<p>Test objects for integration testing include:</p>
+<ul>
+  <li>Database(MySQL)</li>
+  <li>APIs (Spring Boot REST api)</li>
+  <li>microservices(Docker and Kubernetes)</li>
+</ul><br>
+<p>Tools for integration testing:</p>
+<ul>
+  <li>Junit 5 for backend testing</li>
+  <li>Selenium for front end testing</li>
+  <li>DbUnit for database testing</li>
+</ul><br>
+<p>Our choice is to start integration testing with those interfaces that are expected to cause the most problems such as backend and database. Doing so prevents major defects at the end of the integration test stage. If integration tests are planned before components or systems are built, they can be developed in the order required for most efficient testing. A risk analysis of the most complex interfaces can help to focus integration testing.  In  iterative  and  incremental  development,  integration  is  also  incremental.  Existing integration tests should be part of the regression tests used in continuous integration. Continuous integration has major benefits because of its iterative nature.
+</p><br>
+<h3>Usability testing</h3><br>
+<p>User testing also known as usability testing should be happening at every point in the process as an integral part of an iterative design process. It’s far better to run some usability testing using what we have to hand than to run no usability testing at all. Our goal is to gather as much feedback as we possibly can as early as we possibly can. This helps us to identify any design issues before we get to the expensive part of the process when we reach the final build. It’s too late and too expensive to leave user testing until after you’ve built your product. At that point in the process, changes are incredibly costly. The objectives of usability testing is to</p>
+<ul>
+  <li>Measure the effectiveness of a feature set within your application.</li>
+  <li>Identify if users are able to complete specific tasks successfully</li>
+  <li>Establish how efficiently users can undertake predetermined tasks.</li>
+  <li>Pinpoint changes to the design that might need to be made to address any shortcomings to improve performance.</li>
+</ul><br>
+<p>Test objects for integration testing include:</p>
+<ul>
+  <li>Prototype</li>
+  <li>End product</li>
+</ul><br>
+<p>Tools for integration testing:</p>
+<ul>
+  <li>Eye tracking to objectively and accurately record and analyze visual behavior. Eye tracking allows you to uncover usability problems without disturbing natural user behavior</li>
+  <li>Interaction logging to store user interaction with app to generate report later for in depth analysis.</li>
+</ul><br>
+<p>To run a usability test effectively will take between 30–60 minutes per participant.The longer a usability test runs, the more tiring it is for the participant, leading to diminishing returns. As such, preparation is key. It’s important to establish exactly what you hope to learn from the test and, equally importantly, establish who you’ll be testing. running a test will require a number of individuals:
+</p>
+<ul>
+  <li>The test participants</li>
+  <li>A facilitator, guiding the test and ensuring everything runs smoothly</li>
+  <li>Some observers and note takers</li>
+</ul><br>
+<p>Our steps to perform usability testing are below:</p>
+<ol>
+  <h6><li>Creating a test plan.</li></h6>
+  <div class="table-container">
+  <table class="table is-bordered is-striped ">
+<tbody>
+  <tr>
+    <th>Location</th>
+    <td>Quiet space such as a meeting room in RMIT</td>
+  </tr>
+  <tr>
+    <th>Time</th>
+    <td>Each after completion of prototype and end product</td>
+  </tr>
+  <tr>
+    <th>Scope</th>
+    <td><ul>
+      <li>Can users identify interface elements accurately in a short amount of time?</li>
+      <li>Can the user complete the task within the time given? For example, can a user search the country Australia successfully in 30 seconds?</li>
+    </ul></td>
+  </tr>
+  <tr>
+    <th>Timings</th>
+    <td>30 minutes</td>
+  </tr>
+  <tr>
+    <th>Equipment</th>
+    <td>Screenflow. It uses a laptop built-in webcam, enabling us to capture not only what the user is doing on screen, but also the look on their face.</td>
+  </tr>
+</tbody>
+</table>
+</div><br>
+  <h6><li>Creating a script</li></h6>
+  <p>Creating a script helps us to facilitate the usability test clearly and consistently. Creating a script helps to:</p>
+  <ul>
+    <li>Focus our mind on what exactly you’re testing, so that our usability test doesn’t drift and remains focused</li>
+    <li>Ensure consistency across multiple test participants</li>
+    <li>Talk about different user scenarios</li>
+    <li>Clearly, articulate the different goals we are testing</li>
+    <li>Help us put our users’ minds at ease</li>
+  </ul>
+  <p>Our script is designed to focus your test on the scenarios we have established in our plan:</p>
+  <ul>
+    <li>How many people are making the journey?</li>
+    <li>When are they traveling and do they have flexibility with their dates?</li>
+    <li>What kind of budget do they have?</li>
+  </ul><br>
+  <h6><li>Recruiting participants</li></h6>
+  <p>First things first, it’s important to test more than one person. Everyone is different, and everyone draws from different experiences, so our results aren’t skewed by too small a sample size. Identifying user groups is  important as it allows us to recruit participants who accurately represent our potential users.</p>
+  <div class="table-container">
+  <table class="table is-bordered is-striped ">
+    <thead>
+  <tr>
+    <th>Aspects</th>
+    <th>Choice</th>
+    <th>Reason</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Gender</td>
+    <td>Half male half female</td>
+    <td>To ensure normal distribution in user behaviour based on gender</td>
+  </tr>
+  <tr>
+    <td>Age</td>
+    <td>18 - 70 years</td>
+    <td>Ages outside of range may lack of decision making skills that fits in travel goals</td>
+  </tr>
+  <tr>
+    <td>Household Income bracket</td>
+    <td>2500 and above</td>
+    <td>Participants with lower income are less likely to travel</td>
+  </tr>
+  <tr>
+    <td>Experience in using travel app</td>
+    <td>Higher proportion on experienced participants</td>
+    <td>Experienced participants can give valuable insights about what the app is lacking or what they are expecting it to have. However, new users are required to provide information on how well the user interface is able to lead its user to perform goals.</td>
+  </tr>
+  <tr>
+    <td>Experience in travelling</td>
+    <td>Higher proportion on experienced participants</td>
+    <td>Experienced participants know the needs of a travel app better. </td>
+  </tr>
+  </tbody>
+  </table>
+  </div><br>
+  <h6><li>Conduct test</li></h6>
+  <p>We must refrain ourselves by helping participants to keep the test neutral so that it serves its purpose. When running a usability test, it is important to listen and observe participant behaviour. It gives valuable insight into the application of what it does well or lack of.</p>
+  <br><h6><li>Report analysis</li></h6>
+  <p>Generating reports and doing an analysis is so important as it keeps a record which serves as a guide for later development phases. Without analysis, it leaves all the work to no avail as we will not conclude and learn from the inadequates and failures.</p>
+</ol>
+</div>
+<a class="button is-small is-info is-outlined" href="description.html">
+    Back
+</a>
+
+
+</div>
+
+
+                  <section class="copyright">
+                    <div class="container">
+                      <p>© <span id="year"></span> | Designed and Developed based on <a href="https://github.com/BulmaTemplates/bulma-templates">Bulma CSS template</a>. | All rights reserved.</p>
+                    </div>
+                  </section>
+
+                </body>
+                </html>

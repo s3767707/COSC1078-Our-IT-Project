@@ -1,0 +1,149 @@
+html,body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  background: #FFFFFF;
+}
+
+.tab-pane.is-active {
+display: block;
+width: 50%;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+margin-top: 100px;
+margin-bottom: 100px;
+}
+
+.hero-body-group-processes
+{background-image: url("../images/group processes.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-career-plans
+{background-image: url("../images/career plans.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-tools
+{background-image: url("../images/github.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-overview
+{background-image: url("../images/project overview.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-aim
+{background-image: url("../images/aim.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-plan
+{background-image: url("../images/plan.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-roles
+{background-image: url("../images/roles 2.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-scope
+{background-image: url("../images/scope.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-tech
+{background-image: url("../images/tools.jpeg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-testing
+{background-image: url("../images/testing.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-timeframe
+{background-image: url("../images/timeframe 2.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-risk
+{background-image: url("../images/risk.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-com
+{background-image: url("../images/communication.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-ref
+{background-image: url("../images/reflection.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-job
+{background-image: url("../images/job.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.reference{
+  background: rgb(236, 241, 240);
+}
+
+.reflection{
+  background: rgb(236, 241, 240);
+  box-shadow:  0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.table th{
+  width: 25%;
+}

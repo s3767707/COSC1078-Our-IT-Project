@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Free Bulma template</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.9.1/css/OverlayScrollbars.min.css'>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="../css/profile.css">
+  <link rel="stylesheet" type="text/css" href="../css/index.css" />
+  <link rel="stylesheet" type="text/css" href="../css/report.css">
+</head>
+
+<body>
+  <!-- START NAV -->
+  <nav class="navbar">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="../index.html">
+          <img src="../images/logo.jpg" alt="Logo">
+        </a>
+        <span class="navbar-burger burger" data-target="navbarMenu">
+        </span>
+      </div>
+      <div class="brand-name">
+        <a href="../index.html" class="logo">Vibing</a>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item is-active" href="../index.html">
+            Home
+          </a>
+          <a class="navbar-item" href="profile.html">
+            Profile
+          </a>
+          <a class="navbar-item" href="tools.html">
+            Tools
+          </a>
+          <a class="navbar-item" href="project.html">
+            Project
+          </a>
+          <a class="navbar-item" href="job.html">
+            Job
+          </a>
+          <a class="navbar-item" href="reflection.html">
+            Reflection
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- END NAV -->
+
+  <section class="hero is-info is-medium is-bold">
+    <div class="hero-body-plan">
+    </div>
+  </section>
+
+<div class="tab-pane is-active" id="pane-2">
+  <div class="content">
+    <h1>Plans and Progress</h1>
+    <br>
+    <h3>User Experience Requirement analysis</h3>
+    <br>
+    <p>A requirement is a singular documented need of what a particular product or service should be or perform. It is a statement that identifies a necessary attribute, capability, characteristic, or quality of a system in order for it to have value and utility to a user. A requirement is a singular documented need of what a particular product or service should be or perform. It is a statement that identifies a necessary attribute, capability, characteristic, or quality of a system in order for it to have value and utility to a user. User Stories help getting the high-level picture of requirements. Acceptance criteria refer to a set of predefined requirements that must be met to mark a user story complete. Acceptance criteria are also sometimes called the “definition of done” because they determine the scope and requirements that must be executed by developers to consider the user story finished.</p>
+    <br>
+    <h4>Acceptance Criteria and User story</h4>
+    <br>
+    <div class="table-container">
+    <table class="table is-bordered is-striped ">
+      <thead>
+    <tr>
+      <th style="width: 15%;">Feature</th>
+      <th>User story</th>
+      <th>Requirement analysis</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Country Search</td>
+      <td><p><i>As</i> an app user</p>
+<p><i>I want to </i>be able to choose a country that I am interested in travelling to</p>
+<p><i>So that </i>I can see price information about that country</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And </i>I’m on the front page</p>
+<p><i>When </i>I click on the select country field</p>
+<p><i>And </i>I select a country</p>
+<p><i>Then</i> the app will redirect me to that countries page showing a price index</p>
+
+</td>
+    </tr>
+    <tr>
+      <td>Categories of goods and services in selected country</td>
+      <td><p><i>As</i> a user</p>
+<p><i>I want to </i>see travel specific costs of goods and services</p>
+<p><i>So that </i>I can get a sense of how much it will cost to travel</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And</i> I’m looking at the price index of my selected country</p>
+<p><i>When</i> I look at the price of goods and services</p>
+<p><i>Then </i>the presented price index will show travel related goods and services</p>
+</td>
+    </tr>
+    <tr>
+      <td>Price budget options</td>
+      <td><p><i>As</i> a user</p>
+<p><i>I want to</i> have a guide of how much money I can budget if I want to spend more or less</p>
+<p><i>So that</i> I can get a greater understanding</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And</i> I want to see examples of budgets</p>
+<p><i>When</i> I click on the ‘plan a budget’ field</p>
+<p><i>Then </i>the app will present three budget options, low, medium, and high</p>
+</td>
+    </tr>
+    <tr>
+      <td>User entered budget
+</td>
+      <td><p><i>As</i> a user</p>
+<p><i>I want to</i> enter the amount I am willing to spend</p>
+<p><i>So that</i> I can see how my money will be divided among the expenses</p>
+</td>
+      <td><p><i>Given that </i>I’m a user</p>
+<p><i>And</i> I’m on the budget plan page</p></p>
+<p><i>When </i>I select the ‘enter budget amount’ field</p>
+<p><i>And</i> I enter an amount</p>
+<p><i>Then </i>the app will divide the entered amount among the expenses</p>
+</td>
+    </tr>
+    <tr>
+      <td>Category slider</td>
+      <td><p><i>As </i>a user</p>
+<p><i>I want to</i> prioritise certain expenses over others</p>
+<p><i>So </i>I can remove unneeded expenses and get a better representation of my total cost</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And</i> I’m on the budget plan page</p>
+<p><i>When</i> I select the category sliders</p>
+<p><i>And </i>move the sliders left or right</p>
+<p><i>Then</i> the prices will increase or decrease based on the entered budget amount</p>
+</td>
+    </tr>
+    <tr>
+      <td>Weekly expenditure</td>
+      <td><p><i>As</i> a user</p>
+<p><i>I want to</i> see how much it would cost for a week to travel</p>
+<p><i>So </i>i can better visualise how much it would cost in total</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And</i> I am on the budget page</p>
+<p><i>When</i> I select ‘how many days are you travelling?’</p>
+<p><i>And</i> I enter the amount</p>
+<p><i>Then</i> the page will display the total budget cost (daily budget * days entered)</p>
+</td>
+    </tr>
+    <tr>
+      <td>Travel save feature</td>
+      <td><p><i>As</i> a user</p>
+<p><i>I want to </i>save my selected budgets</p>
+<p><i>So</i> I can see budgets for more than one country</p>
+</td>
+      <td><p><i>Given that</i> I’m a user</p>
+<p><i>And </i>I have finished with my budget</p>
+<p><i>When</i> I select the ‘Save budget plan’ field</p>
+<p><i>And</i> I navigate to the saved budget page</p>
+<p><i>Then</i> the app will display my saved budget plans, as well as adding the costs of them together</p>
+</td>
+    </tr>
+    <tr>
+      <td>Profile page</td>
+      <td><p><i>As </i>a logged out user</p>
+<p><i>I want to</i> be able to sign into the website</p>
+<p><i>So that</i> I can save and view my saved budget plans</p>
+</td>
+      <td><p><i>Given that</i> I’m a logged out user</p>
+<p><i>And</i> I’m on the sign in page</p>
+<p><i>When</i> I fill in the username and password fields</p>
+<p><i>And </i>click the sign in button</p>
+<p><i>Then</i> the system signs me in</p>
+</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<br><hr><br>
+<h3>User Interaction Design</h3>
+<br>
+<p>Referring to the section above some identified features for a user include:</p>
+<ul>
+  <li>Country search</li>
+  <li>Categories of goods and services in selected country</li>
+  <li>Category slider</li>
+  <li>Travel save</li>
+  <li>Profile page</li>
+  <li>Price budget options</li>
+  <li>User entered budget</li>
+  <li>Weekly expenditure</li>
+</ul>
+<p>The first step to designing an interface is creating context scenarios. To do this we create a scenario using a fake persona where the user engages with the application to achieve an end goal.
+</p>
+<p>Scenario example – A young girl named Emily has been stuck in lockdown for months. She was considered an essential worker and has been saving her money through the pandemic. She hasn’t travelled much and doesn’t know what costs there are involved. Her dream is to travel to Japan and has saved $8000 in the past 6 months. Using the app, she will be able to navigate though it inputting her budget and country of interest which will be broken into 6 different categories of purchasing power and Emily will have a clear idea on budgeting for her trip.
+</p>
+<p>We want the experience to be personal. Emily will have her own profile where she can see her saved journey plans and there will be a function where she can view other profiles and trips where she could find some inspiration.</p>
+<br>
+<div class="table-container">
+<table class="table is-bordered is-striped ">
+  <thead>
+<tr>
+  <th style="width: 15%;">Scenario Step</th>
+  <th>User Interaction Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Emily wishes to travel</td>
+  <td>Marketing and available information</td>
+</tr>
+<tr>
+  <td>Create account on mobile app</td>
+  <td>Sign up/ Sign in pages</td>
+</tr>
+<tr>
+  <td>Set Budget</td>
+  <td>Text field for whole dollar amount</td>
+</tr>
+<tr>
+  <td>Set Country of Interest</td>
+  <td>Search field for countries</td>
+</tr>
+<tr>
+  <td>Cost per day</td>
+  <td>Purchase power broken down into 6 categories the user can select and shows CPI</td>
+</tr>
+<tr>
+  <td>Save and view travel plan</td>
+  <td>Personal profile with minimal personal details and a saved trips section</td>
+</tr>
+</tbody>
+</table>
+</div>
+<br>
+<p>The next step is to construct key path scenarios. This comes from the context scenario driven from the user's needs. The following are the factors to take into consideration when creating a functional prototype:
+</p>
+<ul>
+  <li>Form factor describes what system is available for the user for example an iPhone, android, or tablet.
+</li>
+  <li>Posture shows the approach the application presents to the user. The vibe and feel the app presents is important and needs to reflect what the user is looking for. Professional with lots of imagery is an example for a travel app.</li>
+  <li>Input Methods demonstrate how the user interacts with the application. This can be keyboard, voice search, touch.</li>
+</ul>
+<p>In this step, brainstorming is required to create functional elements. A functional element is an element on the interface that responds to the functional need of the user. For example, if the user’s functional need was to see countries of the world without using the search bar, the functional element would be an interactive map. For this project InVision and Proto.io are tools that will be used to create a usable interface for this project. The goal is to achieve a high fidelity prototype which has its advantages and disadvantages:
+</p>
+<br>
+<div class="table-container">
+<table class="table is-bordered is-striped ">
+  <thead>
+<tr>
+  <th>Advantages</th>
+  <th>Disadvantages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>Completely functional and interactive</td>
+  <td>Time consuming</td>
+</tr>
+<tr>
+  <td>Look and feel of final product</td>
+  <td>Can be expensive to develop</td>
+</tr>
+<tr>
+  <td>User driven</td>
+  <td>Ineffective method for proof-of-concept designs</td>
+</tr>
+
+</tbody>
+</table>
+</div>
+<br>
+<p>Mind map of our basic layout:<p>
+  <a href="https://rmiteduau.sharepoint.com/sites/A2-IT/Shared%20Documents/General/Assignment%203/Original%20App%20layout.png">https://rmiteduau.sharepoint.com/sites/A2-IT/Shared%20Documents/General/Assignment%203/Original%20App%20layout.png</a>
+<p>Our prototype on proto.io:<p>
+  <a href="https://pr.to/G37VE5/">https://pr.to/G37VE5/</a>
+<br><br><br>
+
+  <div class="columns features">
+<div class="column is-4">
+  <img src="../images/proto 1.png">
+</div>
+<div class="column is-4">
+  <img src="../images/proto 2.png">
+</div>
+</div>
+
+<p>Above are a couple screenshots of our project. They are there to provide some insight to the elements and patterns used in the app. Firstly, the app opens to a beautiful image of Athens. As a travel app we want our user to be reminded and inspired about why they got the app. Throughout the app there is a lot of use of images which can be a powerful marketing tool as it encourages users to imagine future experiences.
+</p>
+<p>The image on the right shows the use of the ‘sidebar navigation’ tool. The sidebar is usually depicted by 3 stacked horizontal lines and typically resides on the top left of the screen. This is a helpful feature for apps as screen sizes can be small and therefore the space needs to be utilized as best as possible, so a side bar tool is ideal to maximise efficiency.
+</p>
+<p>Furthermore, scrollable attributes have been embedded to maximise content on the app. On select pages both vertical and horizontal scroll bars have been used. An important step in building an app’s architecture is developing a mental model, whether this is in the form of storyboarding, workflow diagrams or mind maps.</p>
+<br><hr><br>
+
+<h2>Software Architecture</h2>
+<br>
+<p>We will first start by creating a CRUD (Create, Read, Update, Delete) app with minimal features and move on to the development of other app features at later phases. The back-end server uses Spring Boot with Spring Web MVC for REST APIs and Spring Data JPA for interacting with MySQL databases. Front-end side is made with React, React Router, Axios and Bootstrap.
+This is the application architecture we’re gonna build:
+<br><br>
+</p>
+<p><strong>Architecture of Spring Boot + React + MySQL CRUD application</strong></p>
+<img src="../images/arc.png">
+<ul>
+  <li>Spring Boot exports REST Apis using Spring Web MVC & interacts with Database using Spring JPA.</li>
+  <li>React Client sends HTTP Requests and retrieves HTTP Responses using axios, shows data on the components. We also use React Router for navigating to pages.</li>
+  <li>We use MYSQL as our database to manage our client data.</li>
+</ul>
+<br>
+<h3>Spring Boot Rest Apis Back-end</h3>
+<br>
+<h4>Overview</h4>
+  <br>
+  <p>These are APIs that Spring Boot App will export:</p>
+  <div class="table-container">
+  <table class="table is-bordered is-striped ">
+    <thead>
+  <tr>
+    <th>Methods</th>
+    <th>URL</th>
+    <th>Actions</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>POST</td>
+    <td>/api/budgetPlan</td>
+    <td>Create new budget plan</td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>/api/budgetPlan</td>
+    <td>Retrieve all budget plans</td>
+  </tr>
+  <tr>
+    <td>GET</td>
+    <td>/api/budgetPlan/:id</td>
+    <td>Retrieve a budget plan by id</td>
+  </tr>
+  <tr>
+    <td>PUT</td>
+    <td>/api/budgetPlan/:id</td>
+    <td>Update a budget plan by id</td>
+  </tr>
+  <tr>
+    <td>DELETE</td>
+    <td>/api/budgetPlan/</td>
+    <td>Delete all budget plans</td>
+  </tr>
+  <tr>
+    <td>DELETE</td>
+    <td>/api/budgetPlan/:id</td>
+    <td>Delete budget plan by id</td>
+  </tr>
+  </tbody>
+  </table>
+  </div>
+<p>We make CRUD operations & finder methods with Spring Data JPA’s JpaRepository
+</p>
+<br><br>
+<h4>Technology</h4>
+
+<ul>
+  <li>Java 8</li>
+  <li>Spring Boot 2 (with Spring Web MVC, Spring Data JPA)</li>
+  <li>MySQL</li>
+  <li>Maven 3.6.1
+</li>
+</ul>
+<br>
+<br>
+<h4>Project Structure</h4>
+  <br>
+<img src="../images/structure.png">
+<br><br>
+<p>Data model class corresponds to entity and table tutorials.
+</p>
+<ul>
+  <li>PlanRepository is an interface that extends JpaRepository for CRUD methods and custom finder methods. It will be autowired in PlanController.
+</li>
+  <li>PlanController is a RestController which has @requestmapping methods for RESTful requests such as: getAllPlans, createPlan, updatePlan, deletePlan, findByPlanID...
+</li>
+  <li>Configuration for Spring Datasource, JPA & Hibernate in application.properties.</li>
+  <li>pom.xml contains dependencies for Spring Boot and MySQL.
+</li>
+</ul>
+<br><br>
+<h4>Implementation</h4>
+<ol>
+  <br>
+  <h5><li>Create and Setup Spring Boot project</li></h5>
+
+  <p>We will use Intellij to create a Spring Boot project. Then open pom.xml and add these dependencies:
+</p>
+<img src="../images/dependency 1.png"><br><br>
+  <p>We also need to add one more dependency for MySQL:</p>
+  <img src="../images/dependency 2.png"><br><br><br>
+
+
+  <h5><li>Configure Spring Datasource, JPA, Hibernate</li></h5>
+  <p>Under src/main/resources folder, open application.properties and write these lines.
+</p>
+<img src="../images/properties.png"><br>
+  <ul>
+    <li>spring.datasource.username & spring.datasource.password properties are the same as our database installation.
+</li>
+    <li>Spring Boot uses Hibernate for JPA implementation, we configure MySQL5InnoDBDialect for MySQL</li>
+    <li>spring.jpa.hibernate.ddl-auto is used for database initialization. We set the value to update value so that a table will be created in the database automatically corresponding to the defined data model. Any change to the model will also trigger an update to the table. For production, this property should be validated.
+</li>
+  </ul>
+  <br>
+  <h5><li>Define Data Model</li></h5>
+  <p>First, we create a class diagram to show the static structure of a system, including classes, their attributes and behaviors, and the relationships between each class. We will be representing the relationships between user class and the relative app feature class in the class diagram below.</p>
+    <img src="../images/model.png"><br><br>
+    <h6>User Details</h6>
+    <p>The users of our app have attributes like username and password for login verification and email address for password reset.
+</p>
+<h6>Journey Planning with Budgeting features</h6>
+<p>A user can have none or multiple travel plans. Each travel plan has an unique id, budget cost which is set by the user and an array which stores trips which are recommended by the system based on its cost. Trips in the travel plan can be edited through the editTrips() method. Users can access a trip's details such as its cost and location.
+</p>
+<h6>SQL tables</h6>
+<p>We create an entity relationship diagram (ERD) to show the relationships of entity sets stored in our database. An entity in this context is an object, a component of data. An entity set is a collection of similar entities. These entities can have attributes that define its properties. We will be using ER diagrams to sketch out the design of our database.
+</p>
+<img src="../images/sql.png"><br><br>
+<p>Let’s say our data model is TravelPlan with three fields: id, budget cost and trips.. In the model package, we define the TravelPlan class.
+</p><br>
+<p><i>model/TravelPlan.java</i></p>
+<img src="../images/class.png"><br><br>
+<ul>
+  <li>@Entity annotation indicates that the class is a persistent Java class.</li>
+  <li>@Table annotation provides the table that maps this entity.</li>
+  <li>@Id annotation is for the primary key.
+</li>
+  <li>@GeneratedValue annotation is used to define generation strategy for the primary key. GenerationType.AUTO means Auto Increment field.</li>
+  <li>@Column annotation is used to define the column in the database that maps the annotated field.</li>
+</ul><br>
+  <h5><li>Create Repository Interface</li></h5>
+  <p>Next, we create a repository to interact with TravelPlan from the database. In the repository package, create TravelPlanRepository interface that extends JpaRepository.
+</p><br>
+<img src="../images/repository.png"><br><br>
+<p>Now we can use JpaRepository’s methods: save(), findOne(), findById(), findAll(),    count(), delete(), deleteById()… without implementing these methods.
+</p>
+<p>We also define custom finder methods:</p>
+<ul>
+  <li>findById(): returns travel plan with id as input</li>
+  <li>findByTitle(): returns all travel plans which title contains input title</li>
+</ul><br>
+  <h5><li>Create Spring Rest APIs Controller</li></h5>
+  <p>Finally, we create a controller that provides APIs for creating, retrieving, updating, deleting and finding Tutorials.
+</p><br>
+  <h5><li>Run the Spring Boot Server</li></h5>
+  <p>Run Spring Boot application with command: mvn spring-boot:run
+</p>
+</ol><br>
+<h3>React.js Front-end</h3>
+<br>
+<h4>Overview</h4>
+<img src="../images/react.png"><br><br>
+<ul>
+  <li>The App component is a container with React Router. It has a navbar that links to route paths.
+</li>
+  <li>BudgetPlanList component gets and displays Tutorials.
+</li>
+  <li>BudgetPlan component has a form for editing Tutorial’s details based on :id.
+</li>
+  <li>AddPlancomponent has a form for submission of a new Tutorial.</li>
+  <li>These Components call PlanDataService methods which use axios to make HTTP requests and receive responses.</li>
+</ul><br><br>
+<h4>Technology</h4>
+<ol>
+  <li>React Native</li>
+  <li>react-router-dom 5.1.2</li>
+  <li>axios 0.19.2</li>
+  <li>bootstrap 4.4.1</li></ol><br><br>
+<h4>Project structure</h4>
+<img src="../images/structure 2.png"><br><br>
+<ul>
+  <li>package.json contains 4 main modules: react, react-router-dom, axios & bootstrap.</li>
+  <li>App is the container that has Router & navbar.</li>
+  <li>There are 3 components: TutorialsList, Tutorial, AddTutorial.</li>
+  <li>http-common.js initializes axios with HTTP base Url and headers.</li>
+  <li>TutorialDataService has methods for sending HTTP requests to the Apis.</li>
+  <li>.env configures port for this React CRUD App.</li>
+</ul>
+<br><br>
+<h4>Implementation</h4>
+<ol>
+  <br>
+  <h5><li>Setup React.js Project</li></h5>
+  <p>Open cmd at the folder you want to save Project folder, run command: npx create-react-app react-crud. After the process is done. We create additional folders and files with css templates. The css template we planned to use is FlexStart. FlexStart is a creative, developer friendly, clean, lightweight and modern Bootstrap website template. FlexStart is created for individuals and companies who want to build websites for software, startup, mobile app, digital agency, SaaS, internet services, fintech and related services and products websites.</p>
+  <br>
+  <h5><li>Import Bootstrap into your React CRUD app</li></h5>
+  <p>Run the following command: npm instal bootstrap.</p>
+  <br>
+  <h5><li>Add React Router to React CRUD App</li></h5>
+  <ul>
+    <li>Run the command: npm instal react-router-dom to add React Router to our React CRUD app.</li>
+    <li>Open src/index.js and enclose the App component with a Browser Router object.</li>
+  </ul>
+  <br>
+  <h5><li>Add a navbar to your React CRUD app</li></h5>
+  <p>Open src/App.js; this App component is the root container for our application; it will contain a navbar as well as a Switch object with multiple Routes. Each Route is associated with a React Component.</p>
+<br>
+  <h5><li>Set up Axios for the React CRUD HTTP Client</li></h5>
+  <ul>
+    <li>Install Axios using the command: npm instal axios.</li>
+    <li>We create the http-common.js file in the src folder.</li>
+  </ul>
+  <br>
+  <h5><li>Make a Data Service</li></h5>
+  <p>In this step, we'll build a service that sends HTTP requests using the axios object from earlier. To perform CRUD operations, we use the axios get, post, put, and delete methods, which correspond to HTTP requests: GET, POST, PUT, and DELETE.</p>
+<br>
+  <h5><li>Run React CRUD App</li></h5>
+  <p>We can run our React CRUD app with the command: npm start.</p>
+</ol>
+<br><hr><br>
+<h3>Deployment</h3>
+<br>
+<p>We will deploy our Spring Boot Java app to Kubernetes on Google Kubernetes Engine:</p>
+<ol>
+  <li>Setup a Google Cloud Project</li>
+  <li>Clone source code into home directory</li>
+  <li>Run our app locally using Maven</li>
+  <li>Package the Java app as a Docker container</li>
+  <li>Create our GKE cluster. A cluster consists of a Kubernetes API server managed by Google and a set of worker nodes. The worker nodes are Compute Engine VMs.</li>
+  <li>Deploy our app to Kubernetes. A Kubernetes deployment can create, manage, and scale multiple instances of our app using the container image that you created. </li>
+  <li>Allow external traffic.</li>
+  <li>Scale our service. One of the powerful features offered by Kubernetes is how easy it is to scale your app. Suppose that you suddenly need more capacity for your app. You can simply tell the replication controller to manage a new number of replicas for your app instances.</li>
+  <li>Upload our app to Google Play Store.</li>
+</ol>
+</div>
+<a class="button is-small is-info is-outlined" href="description.html">
+    Back
+</a>
+</div>
+
+
+</div>
+
+
+                  <section class="copyright">
+                    <div class="container">
+                      <p>© <span id="year"></span> | Designed and Developed based on <a href="https://github.com/BulmaTemplates/bulma-templates">Bulma CSS template</a>. | All rights reserved.</p>
+                    </div>
+                  </section>
+
+                </body>
+                </html>

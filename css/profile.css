@@ -25,7 +25,7 @@ html,body {
 }
 
 .hero-body
-{background-image: url("../images/background img.jpg");
+{background-image: url("../images/personal information.jpg");
 background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
@@ -42,7 +42,7 @@ height: 500px;
 }
 
 .features {
-  padding-top: -10rem;
+  padding-top: 0rem;
   padding-bottom: 5rem;
 }
 
@@ -80,21 +80,4 @@ transition: all .2s ease-in-out;
 
 .is-shady:hover {
 box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
-}
-
-.profile.welcome.is-info {
-  background: #c0bde6;
-  background: -webkit-linear-gradient(to right, #c0bde6, #36D1DC);
-  background: linear-gradient(to right, #86DFF3, #DABDEB, #FFF9E7);
-  margin-bottom: 3rem;
-}
-
-.profile.welcome.is-info h1{
-  color: whitesmoke;
-  font-weight: 600;
-  font-size: 3rem;
-  font-family: 'Arial', sans-serif;
-  text-shadow: 1px 1px 1px #cfcbc9, 0px 2px 4px #867e79;
-  text-align: center;
-  line-height: 5rem;
 }

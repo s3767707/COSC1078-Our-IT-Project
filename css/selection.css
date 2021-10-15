@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans:wght@400;600&display=swap');
+html,body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  background: #FFFFFF;
+}
+
+.hero-body-tech
+{background-image: url("../images/background img.jpg");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-project
+{background-image: url("../images/project description.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-description
+{background-image: url("../images/detail.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 500px;
+}
+
+.hero-body-tech .header-title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 6rem;
+  color: whitesmoke;
+  line-height:5;
+}
+
+.hero-body-project .header-title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 6rem;
+  color: whitesmoke;
+  line-height:5;
+}
+
+.hero-body-description .header-title {
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 6rem;
+  color: whitesmoke;
+  line-height:2;
+}
+.blog-posts {
+  min-height: 100vh;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.blog-posts article {
+  padding: 2rem;
+  padding-bottom: 10rem;
+}
+
+.blog-posts .post .post-category {
+  color: #3b7adf;
+}
+
+.blog-posts .post .post-title {
+  font-size: 2.2rem;
+}
+
+.blog-posts .post .post-excerpt {
+  line-height: 1.5rem;
+  letter-spacing: .03rem;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Serif', serif;
+  color: #92a3ab;
+}
+
+.blog-posts .post .featured .featured-image img {
+  height: 380px;
+}
+
+.column img{
+  width:600px;
+  height: 300px;
+}
